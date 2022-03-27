@@ -1,0 +1,79 @@
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm и Rider
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательские вещи
+.идея/**/workspace.xml
+.идея/**/tasks.xml
+.идея/**/usage.statistics.xml
+.idea/**/словари
+.идея/**/полка
+
+# AWS для конкретного пользователя
+.идея/**/aws.xml
+
+# Сгенерированные файлы
+.идея/**/contentModel.xml
+
+# Чувствительные или файлы с высоким оттоком
+.idea/**/Источники данных/
+.idea/**/DataSources.ids
+.идея/**/dataSources.local.xml
+.идея/**/sqlDataSources.xml
+.идея/**/dynamic.xml
+.идея/**/uiDesigner.xml
+.идея/**/dbnavigator.xml
+
+# Gradle
+.идея/**/gradle.xml
+.idea/**/библиотеки
+
+# Gradle и Maven с автоматическим импортом
+# При использовании Gradle или Maven с автоматическим импортом вы должны исключить файлы модулей,
+# так как они будут воссозданы и могут вызвать отток. Раскомментируйте, если используете
+# автоматический импорт.
+# идея/артефакты
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/модули
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Плагин Mongo Explorer
+.idea/**/mongoSettings.xml
+
+# Формат проекта на основе файлов
+*.iws
+
+# IntelliJ
+выход/
+
+# mpeltonen/sbt-плагин idea
+.idea_modules/
+
+# Плагин JIRA
+atlassian-ide-plugin.xml
+
+# Курсивный плагин Clojure
+.idea/replstate.xml
+
+# Плагин SonarLint
+.идея/sonarlint/
+
+# Crashlytics плагин (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Клиент Rest на основе редактора
+.idea/HttpRequests
+
+# Android studio 3.1+ сериализованный файл кэша
+.idea/caches/build_file_checksums.ser
+# Project exclude paths
+/out/
